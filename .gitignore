@@ -1,0 +1,5 @@
+textbooks.zip
+bad_textbooks/
+textbooks/
+.ipynb_checkpoints/
+*.pyc
