@@ -2,4 +2,6 @@ textbooks.zip
 bad_textbooks/
 textbooks/
 .ipynb_checkpoints/
+data/text.pkl
+data/toc.pkl
 *.pyc
