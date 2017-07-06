@@ -1,4 +1,4 @@
-# README
+# Textbook Concept Map Builder
 
 ## Install the docker image
 docker build -t tcm .
@@ -8,7 +8,7 @@ docker run -d -p 8888:8888 --name tcm \
   -v /tcm:/tcm -w /tcm tcm
   
 ## Run a DBpedia Spotlight server
-docker run -i -p 2222:80 dbpedia/spotlight-english spotlight.sh
+docker run -i -p 2222:80 --name spotlight dbpedia/spotlight-english spotlight.sh
 
 ### Test out the Spotlight server
 ```
